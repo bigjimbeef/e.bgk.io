@@ -1,0 +1,53 @@
+* {
+	font-family: 	consolas;
+}
+
+#container {
+	text-align: 	center;
+	padding:		50px;
+}
+
+#container div {
+	margin-bottom: 	20px;
+}
+
+#container div label {
+	display:		block;
+	margin-bottom:	5px;
+}
+
+#texty-name-container {
+	position:		absolute;
+	left: 			10px;
+	top:			10px;
+}
+
+#texty-name-container span {
+	margin-right: 	15px;
+	color:			#000;
+}
+
+#texty-name-container span.modal-up {
+	color:			#FFF;
+}
+
+#nick-error {
+	position: 		absolute;
+	top: 			35px;
+	left: 			25px;
+	z-index:		1;
+
+	display:		none;
+	color:			red;
+}
+
+#modal {
+	display:		none;
+
+	position:		absolute;
+	top:			0;
+	left:			0;
+	height:			100%;
+	width:			100%;
+	background:		rgba(0, 0, 0, 0.6);
+}
